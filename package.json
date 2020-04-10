@@ -12,8 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanieblom/17-Fitness-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephanieblom/17-Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/stephanieblom/17-Fitness-Tracker#readme"
 }
