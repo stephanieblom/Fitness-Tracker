@@ -1,7 +1,7 @@
 # 17-Fitness-Tracker
 
 # Heroku Link 
-[Fitness Tracker](http://fitness-tracker-17.herokuapp.com/stats)
+[Fitness Tracker](http://fitness-tracker-17.herokuapp.com/)
 
 # Description 
 
