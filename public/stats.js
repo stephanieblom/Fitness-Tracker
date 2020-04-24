@@ -2,6 +2,7 @@
 
 fetch("/api/workouts/range")
   .then(response => {
+    console.log(response)
     return response.json();
   })
   .then(data => {
@@ -34,7 +35,9 @@ API.getWorkoutsInRange()
   return arr;
   }
 function populateChart(data) {
+  console.log(`Data:`, data)
   let durations = duration(data);
+  console.log( `Duration: `, durations)
   let pounds = calculateTotalWeight(data);
   let workouts = workoutNames(data);
   const colors = generatePalette();

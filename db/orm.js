@@ -5,8 +5,9 @@ mongoose.connect( process.env.MONGODB_URI || 'mongodb://localhost:27017/fitnessT
 mongoose.set('useCreateIndex', true);
 
 // include mongoose models (it will include each file in the db directory)
-const exercises = require( './exercises.js' );
 const workouts = require( './workouts.js' );
+const exercises = require( './exercises.js' );
+
 
 async function createWorkout( data ){
 
@@ -72,7 +73,7 @@ console.log('New exercise id: ', newExercise._id)
 
 async function listWorkouts(){
 
-    const listWorkouts =  await workouts.find()
+    const listWorkouts =  await workouts.find().populate('exercises')
     if (!listWorkouts){
         const noWorkoutsYet = 0
         console.log('No workouts posted in db yet ')
@@ -87,7 +88,7 @@ async function listWorkouts(){
 
 async function lastWorkout(){
     
-    const previousWorkout =  await workouts.find();
+    const previousWorkout =  await workouts.find().limit(1).sort({$natural:-1}).populate('exercises');
     return previousWorkout;
 }
 

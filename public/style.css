@@ -25,6 +25,9 @@ nav {
   font-size: 1.2rem;
 }
 
+.nav-element {
+  margin-right: 20px;
+}
 a,
 a:hover,
 a:active,
