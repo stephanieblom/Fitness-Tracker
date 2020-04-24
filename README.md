@@ -1,5 +1,8 @@
 # 17-Fitness-Tracker
 
+# Heroku Link 
+[Fitness Tracker](http://fitness-tracker-17.herokuapp.com/stats)
+
 # Description 
 
 This app is a **F**itness **T**racker for tracking the users workouts along with the exercises in their workouts. 
