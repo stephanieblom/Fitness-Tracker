@@ -1,4 +1,4 @@
-# 17-Fitness-Tracker
+# Fitness-Tracker
 
 # Heroku Link 
 [Fitness Tracker](http://fitness-tracker-17.herokuapp.com/)
@@ -7,11 +7,11 @@
 
 This app is a **F**itness **T**racker for tracking the users workouts along with the exercises in their workouts. 
 
-```
-As a user, I want to be able to view create and track workouts. I want to be able to log multiple exercises in a workout. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-```
 
-# DEMO 
+As a user, I want to be able to view create and track workouts. I want to be able to log multiple exercises in a workout. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
+
+# Demo 
 ![Fitness Tracker Demo](assets/demo.gif)
 
 ## Installation
